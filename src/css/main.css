@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+.presentation {
+    color: white;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.presentation h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffffbf;
+}
+
+.presentation p {
+    font-size: 40px;
+    color: #f9fafa;
+    font-weight: bold;
+}
+
+.presentation p span {
+    color: #23b8ff;
+}
+
+#particles-js {
+    /*background: linear-gradient(to right, #2B32B2, #1488CC);*/
+    background: linear-gradient(to right, #79797b, #124196);
+}
+
+.pt-lg-20 {
+    padding-top: 280px;
+}
+
+.ml-l-16 {
+    margin-left: 210px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
