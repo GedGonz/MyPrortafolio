@@ -11,31 +11,62 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="stylesheet" href="./src/css/boostrap.css">
+    <link rel="stylesheet" href="./src/css/boxicons.min.css">
 </head>
 
 <body>
 
     <div id="particles-js">
     </div>
-    <div class="container">
-        <div class="presentation">
-            <h1 class="text-center pt-lg-20">Gerald Gonzalez Zeledon</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6">
+                <div class="presentation">
+                    <h1 class=" pt-lg-20">Gerald Gonzalez Zeledon</h1>
 
-            <p class="ml-l-16">Soy <span class="typed"></span></P>
+                    <p class="">Soy <span class="typed"></span></P>
+                    <p class="text-center">
+
+                        <a class="down" href="#aboutme" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+                        ></a>
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <lottie-player class="pt-lg-10" src="https://assets10.lottiefiles.com/packages/lf20_n9ryrmts.json" mode="bounce" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-11">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/gedgonz" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.github.com/gedgonz" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="mailto:gedgonz7@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+
+                </div>
+            </div>
+
         </div>
 
     </div>
 
 
-
-
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="./src/js/app.js"></script>
 <script src="./src/js/particles.min.js"></script>
 <script src="./src/js/sweet-scroll.min.js"></script>
 <script src="./src/js/typed.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script>
     var typed = new Typed('.typed', {
         strings: ["desarrollador", "programador", "autodidacta", "amante de la tecnología"],
@@ -43,6 +74,16 @@
         typeSpeed: 65,
         backSpeed: 65
     });
+
+    document.addEventListener(
+        'DOMContentLoaded',
+        () => {
+            const scroller = new SweetScroll({
+                /* some options */
+            });
+        },
+        false,
+    );
 </script>
 
 </html>
