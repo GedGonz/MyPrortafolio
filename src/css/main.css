@@ -54,7 +54,7 @@
 }
 
 .container-fluid .social-links a {
-    font-size: 16px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,10 +63,22 @@
     line-height: 1;
     margin-right: 8px;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .container-fluid .social-links a:hover {
     background: #3e88e7;
+}
+
+@media (max-width: 765px) {
+    .presentation h1 {
+        font-size: 35px;
+    }
+    .presentation p {
+        font-size: 20px;
+    }
+    .pt-lg-20 {
+        padding-top: 5px;
+    }
 }
