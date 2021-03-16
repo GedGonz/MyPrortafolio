@@ -39,12 +39,7 @@
     margin-left: 210px;
 }
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-}
-
-.container {
+.canvas {
     position: relative;
 }
 
@@ -81,4 +76,15 @@
     .pt-lg-20 {
         padding-top: 5px;
     }
+}
+
+@keyframes animateWave {
+    0% {
+        transform: scale(1, 0);
+    }
+}
+
+.wave-container>svg {
+    transform-origin: bottom;
+    animation: animateWave 2000ms cubic-bezier(0.56, 1, 0.48, 1) forwards;
 }
