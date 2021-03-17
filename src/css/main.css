@@ -22,6 +22,20 @@
     color: #23b8ff;
 }
 
+.about {
+    text-align: justify;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222121bf;
+}
+
+.about p {
+    font-size: 25px;
+}
+
 #particles-js {
     /*background: linear-gradient(to right, #2B32B2, #1488CC);*/
     background: linear-gradient(to right, #79797b, #124196);
@@ -87,4 +101,38 @@
 .wave-container>svg {
     transform-origin: bottom;
     animation: animateWave 2000ms cubic-bezier(0.56, 1, 0.48, 1) forwards;
+}
+
+.picture {
+    border-radius: 100%;
+    width: 80%;
+    margin: 25px 10% 25px;
+}
+
+.backgroundimg {
+    background: rgb(23 23 23 / 5%);
+    border-radius: 200%;
+    width: 80%;
+}
+
+.container_image {
+    margin: 60px 10px 10px;
+}
+
+a:hover {
+    color: rgb(52 50 50 / 69%)!important;
+    text-decoration: none !important;
+}
+
+.informationme {
+    font-size: 20px;
+    color: #222121bf;
+}
+
+.informationme ul li {
+    padding: 10px
+}
+
+.informationme .list-data {
+    padding-left: 10px
 }
