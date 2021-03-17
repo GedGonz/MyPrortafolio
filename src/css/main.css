@@ -45,6 +45,10 @@
     padding-top: 100px;
 }
 
+.pt-lg-30 {
+    padding-top: 200px;
+}
+
 .pt-lg-10 {
     padding-top: 50px;
 }
@@ -135,4 +139,10 @@ a:hover {
 
 .informationme .list-data {
     padding-left: 10px
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
