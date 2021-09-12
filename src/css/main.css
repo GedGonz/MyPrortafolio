@@ -156,11 +156,11 @@
 .backgroundimg {
     background: rgb(23 23 23 / 5%);
     border-radius: 200%;
-    width: 80%;
+  
 }
 
 .container_image {
-    margin: 30px 10px 10px;
+    /*margin: 30px 10px 10px;*/
 }
 
 a:hover {
